@@ -1,0 +1,715 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: overview
+
+* Editing
+** Open new line at point                                             :drill:
+:PROPERTIES:
+:ID:       103108FA-C532-4C8F-8567-CA9D92ED0AD2
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:20]
+:END:
+Open a new line at point and move the rest of the line to the next line.  Leave point at new line.
+
+
+*** Answer
+
+C-o
+
+
+** Indent region                                                      :drill:
+:PROPERTIES:
+:ID:       D5AE63A6-A89C-4A8F-8F49-3E89D9D2EE99
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 1.25
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:23]
+:END:
+
+Indent region by arg characters - or auto-indent according to mode
+
+*** Answer
+
+C-M-\
+
+* Movement / Navigation
+** Jump to last capture                                              :drill:
+:PROPERTIES:
+:ID:       F9BAF93F-4BFB-47C9-9ECE-ABD42449A863
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:55]
+:END:
+
+How to jump to the node created with the last capture command?
+
+*** Answer
+
+Jump to boomkark =org-capture-last-stored=, by typing keyboard command C-x r b and then the name of the bookmark.
+
+*** Notes
+
+This is different from C-u C-u C-c C-w, which jumps to bookmark =org-refile-last-stored=.
+
+It is also different from this:
+
+C-u C-c c
+Visit the target location of a capture template. You get to select the template in the usual way.  The target location is not necessarily the last location of refile.  The last location may have been at a different date of a date-tree capture, for example.
+
+** Jump to end of sentence                                           :drill:
+:PROPERTIES:
+:ID:       471F018B-0DA5-4CA6-901B-79134706B3CD
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:19]
+:END:
+
+How to jump to end of sentence (marked by . followed by two spaces or other blank mark)?
+
+*** Answer
+
+M-e
+
+Cmpare to C-e and
+
+* Searching
+** isearch-forward                                                   :drill:
+   :PROPERTIES:
+   :ID:       8315743e-b8d9-4141-a6ca-e238baccbaa2
+   :END:
+
+isearch-forward
+
+*** Answer
+
+s-f, C-s
+
+** isearch-backward                                                   :drill:
+   :PROPERTIES:
+   :ID:       c51c0ef4-1336-420e-8219-3827e11d13fb
+   :END:
+
+isearch-backward
+
+*** Answer
+
+c-r
+
+* Org Commands
+** Copy current node and refile the copy to other location            :drill:
+:PROPERTIES:
+:ID:       1C1B1835-60F5-4535-ABF7-62C1C4288609
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:27]
+:END:
+
+Copying works like refiling, except that the original note is not
+deleted
+
+*** Answer
+
+`C-c M-w     (`org-copy')'
+
+** How can I display only current task and hide others in org-mode?   :drill:
+   SCHEDULED: <2016-02-27 Sáb>
+   :PROPERTIES:
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 5.0
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:48]
+   :ID:       04e95e90-5bb8-4934-8a1e-582b5598ac9d
+   :END:
+*** Answer
+
+C-x n s # org-narrow-to-subtree (bound in org-mode)
+
+** How can I display all tasks after narrow to one?                   :drill:
+   :PROPERTIES:
+   :ID:       41abbbeb-eb77-415f-a222-c88a88740cb3
+   :END:
+*** Answer
+C-x n w      # widen
+
+* Dired
+** Changing files by editing the dired buffer
+
+Edit the dired buffer to change file names, move files etc.
+
+
+*** Answer
+
+C-x C-q (dired-toggle-read-only)
+
+To finish and apply: C-c C-c (wdired-finish-edit)
+
+*** Details
+From: https://www.gnu.org/software/emacs/manual/html_node/emacs/Wdired.html
+
+#+BEGIN_QUOTE
+30.17 Editing the Dired Buffer
+
+Wdired is a special mode that allows you to perform file operations by editing the Dired buffer directly (the “W” in “Wdired” stands for “writable”.) To enter Wdired mode, type C-x C-q (dired-toggle-read-only) while in a Dired buffer. Alternatively, use the ‘Immediate / Edit File Names’ menu item.
+
+While in Wdired mode, you can rename files by editing the file names displayed in the Dired buffer. All the ordinary Emacs editing commands, including rectangle operations and query-replace, are available for this. Once you are done editing, type C-c C-c (wdired-finish-edit). This applies your changes and switches back to ordinary Dired mode.
+
+Apart from simply renaming files, you can move a file to another directory by typing in the new file name (either absolute or relative). To mark a file for deletion, delete the entire file name. To change the target of a symbolic link, edit the link target name which appears next to the link name.
+
+The rest of the text in the buffer, such as the file sizes and modification dates, is marked read-only, so you can't edit it. However, if you set wdired-allow-to-change-permissions to t, you can edit the file permissions. For example, you can change ‘-rw-r--r--’ to ‘-rw-rw-rw-’ to make a file world-writable. These changes also take effect when you type C-c C-c.
+#+END_QUOTE
+
+* Calendar
+
+** Invoking calendar                                                 :drill:
+   :PROPERTIES:
+   :ID:       689873fd-3b0e-4523-a55e-98d7f66fee63
+   :END:
+
+Invoking calendar
+
+*** Answer
+
+M-x calendar: 3 month calendar with previous, this, next month.
+
+C-u M-x calendar: 3 month calendar centering on a date entered with interactive choice
+
+
+** navigating in calendar                                             :drill:
+   :PROPERTIES:
+   :ID:       ca70a426-300e-4d86-b6e1-25f74b1a9d2b
+   :END:
+
+Commands for navigating in calendar
+
+*** Answer
+`C-f'
+     Move point one day forward (`calendar-forward-day').
+
+`C-b'
+     Move point one day backward (`calendar-backward-day').
+
+`C-n'
+     Move point one week forward (`calendar-forward-week').
+
+`C-p'
+     Move point one week backward (`calendar-backward-week').
+
+`M-}'
+     Move point one month forward (`calendar-forward-month').
+
+`M-{'
+     Move point one month backward (`calendar-backward-month').
+
+`C-x ]'
+     Move point one year forward (`calendar-forward-year').
+
+`C-x ['
+     Move point one year backward (`calendar-backward-year').
+
+* Help, Info, Input Methods, Keyboard commands
+** Find out which keyboard shortcut corresponds to a given command   :drill:
+SCHEDULED: <2013-12-16 Mon>
+:PROPERTIES:
+:ID:       82BCE382-C5A3-4C43-B01A-00AC54BFF126
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2013-12-06 Fri 10:37]
+:END:
+
+Which keyboard helps you find out the keyboard shortcut corresponds to a given command?
+
+*** Answer
+
+C-h w (which)
+* Marking
+** Mark Paragraph                                                    :drill:
+SCHEDULED: <2013-12-16 Mon>
+:PROPERTIES:
+:ID:       BD030B03-FBBF-46F3-8AE1-636CB7A5DF65
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2013-12-06 Fri 10:34]
+:END:
+
+Which key?
+
+Hint: Use the command of another mode instead
+
+*** Answer
+
+The command is mark-paragraph.
+Per default, it is not bound to any key.
+
+In org mode, org-mark-element will work well if the cursor is inside a paragraph.  The command for that is M-h
+
+* Visibility, Sparse trees
+** Limit visibility to given tree depth                              :drill:
+:PROPERTIES:
+:ID:       E5DDAA6C-2A7A-437A-996D-9BEFC2FF0358
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 2.2
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:25]
+:END:
+
+Limit to given tree depth
+
+
+*** Answer
+
+C-number or C-u number followed by shift-tab.  Limits visibility to number depth of tree.
+
+** Search for tags                                                   :drill:
+:PROPERTIES:
+:ID:       F00460B6-CAB8-463B-9115-113E8546FD34
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:25]
+:END:
+
+http://orgmode.org/manual/Tag-searches.html
+
+*** Answer
+
+http://orgmode.org/manual/Tag-searches.html
+#+BEGIN_QUOTE
+C-c / m or C-c \     (org-match-sparse-tree)
+Create a sparse tree with all headlines matching a tags/property/TODO search. With a C-u prefix argument, ignore headlines that are not a TODO line. See Matching tags and properties.
+C-c a m     (org-tags-view)
+Create a global list of tag matches from all agenda files. See Matching tags and properties.
+C-c a M     (org-tags-view)
+Create a global list of tag matches from all agenda files, but check only TODO items and force checking subitems (see the option org-tags-match-list-sublevels).
+These commands all prompt for a match string which allows basic Boolean logic like ‘+boss+urgent-project1’, to find entries with tags ‘boss’ and ‘urgent’, but not ‘project1’, or ‘Kathy|Sally’ to find entries which are tagged, like ‘Kathy’ or ‘Sally’. The full syntax of the search string is rich and allows also matching against TODO keywords, entry levels and properties. For a complete description with many examples, see Matching tags and properties.
+#+END_QUOTE
+
+Yet see http://orgmode.org/manual/Sparse-trees.html
+
+** Get out of (leave) a sparse tree, and return to full view         :drill:
+SCHEDULED: <2013-12-16 Mon>
+:PROPERTIES:
+:ID:       C4FD13E3-FFB9-4687-875B-6217F0E42D89
+:DRILL_LAST_INTERVAL: 9.648
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2013-12-06 Fri 10:28]
+:END:
+
+Trick question: How to do that?
+
+Tip: Use the passe-par-tout.
+
+*** Answer
+
+C-c C-c (!)
+
+* Magit
+** Magit status
+
+open magit status / choose project
+
+
+*** Answer
+
+"Press <C-x g> or <s-m> to run magit-status."
+
+With C-u prefix: choose git repo from list to run status on.
+project
+
+* Shells
+* Less-known but useful keyboard commands
+** What is the command s-e bound to?                                  :drill:
+:PROPERTIES:
+:ID:       D4335B25-8F93-449D-B181-B5AD75444BC5
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:20]
+:END:
+
+What is the command s-e bound to?
+
+*** Answer
+
+isearch-yank-kill: Pull string from kill ring into search string.
+
+* Prelude commands + tips
+** Prelude "daily" tips                                               :drill:
+:PROPERTIES:
+:ID:       4113035D-87F6-48F4-AD6E-0D16D96E8CD1
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:23]
+:END:
+These are all prelude tips from /Users/iani2/.emacs.d/core/prelude-core.el
+
+They are in the process of being moved over to separate drill entries
+in this file.  Please work on these and mark the ones already entered,
+until all have been entered.
+
+*** Answer
+
+
+They are in the process of being moved over to separate drill entries
+in this file.  Please work on these and mark the ones already entered,
+until all have been entered.
+
+
+(defvar prelude-tips
+  '(
+
+**** TODO "Press <C-c o> to open a file with external program."
+**** TODO "Press <C-c p f> or <s-f> to navigate a project's files with ido."
+**** TODO "Press <C-c p g> or <s-g> to run grep on a project."
+**** TODO "Press <C-c p s> or <s-p> to switch between projects."
+**** TODO "Press <C-=> or <s-x> to expand the selected region."
+**** DONE "Press <jj> quickly to jump to the beginning of a visible word."
+CLOSED: [2013-12-04 Wed 12:23]
+**** DONE "Press <jk> quickly to jump to a visible character."
+CLOSED: [2013-12-04 Wed 12:23]
+**** DONE "Press <jl> quickly to jump to a visible line."
+CLOSED: [2013-12-04 Wed 12:23]
+**** TODO "Press <C-c h> to navigate a project in Helm."
+**** TODO "Press <C-c g> to search in Google."
+**** TODO "Press <C-c r> to rename the current buffer and file it's visiting."
+**** TODO "Press <C-c t> to open a terminal in Emacs."
+**** TODO "Press <C-c k> to kill all the buffers, but the active one."
+**** DONE "Press <C-x g> or <s-m> to run magit-status."
+CLOSED: [2013-12-08 Sun 14:23]
+**** TODO "Press <C-c D> to delete the current file and buffer."
+**** TODO "Press <C-c s> to swap two windows."
+**** TODO "Press <S-RET> or <M-o> to open a new beneath the current one."
+**** TODO "Press <s-o> to open a line above the current one."
+**** TODO "Press <C-c C-z> in a Elisp buffer to launch an interactive Elisp shell."
+**** TODO "Press <C-Backspace> to kill a line backwards."
+**** TODO "Press <C-S-Backspace> or <s-k> to kill the whole line."
+**** TODO "Press <f11> to toggle fullscreen mode."
+**** TODO "Press <f12> to toggle the menu bar."
+**** TODO "Explore the Tools->Prelude menu to find out about some of Prelude extensions to Emacs."
+**** TODO "Access the official Emacs manual by pressing <C-h r>."
+**** TODO "Visit WikEmacs at http://wikemacs.org to find out even more about Emacs."
+
+))
+
+** Prelude commands                                                  :drill:
+:PROPERTIES:
+:ID:       9E29718C-3B6F-42FB-ACF7-6CC510CA0C03
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:24]
+:END:
+
+These are all prelude commands from https://github.com/bbatsov/prelude
+
+They are in the process of being moved over to separate drill entries in this file.  Please work on these and mark the ones already entered, until all have been entered.
+
+*** Answer
+
+**** TODO C-c p f	Display a list of all files in the project. With a prefix argument it will clear the cache first.
+**** TODO C-c p d	Display a list of all directories in the project. With a prefix argument it will clear the cache first.
+**** C-c p T	Display a list of all test files(specs, features, etc) in the project.
+**** C-c p g	Run grep on the files in the project.
+**** C-c p b	Display a list of all project buffers currently open.
+**** C-c p o	Runs multi-occur on all project buffers currently open.
+**** C-c p r	Runs interactive query-replace on all files in the projects.
+**** C-c p i	Invalidates the project cache (if existing).
+**** C-c p R	Regenerates the projects TAGS file.
+**** C-c p k	Kills all project buffers.
+**** C-c p D	Opens the root of the project in dired.
+**** C-c p e	Shows a list of recently visited project files.
+**** C-c p a	Runs ack on the project. Requires the presence of ack-and-a-half.
+**** C-c p c	Runs a standard compilation command for your type of project.
+**** C-c p p	Runs a standard test command for your type of project.
+**** C-c p z	Adds the currently visited to the cache.
+**** C-c p s	Display a list of known projects you can switch to.
+
+** Display a list of all files in the project. With a prefix argument it will clear the cache first. :drill:
+:PROPERTIES:
+:ID:       2E3E9404-507A-480F-8C79-4F242D0E3C0E
+:END:
+
+
+*** Answer
+
+C-c p f
+** Display a list of all directories in the project. With a prefix argument it will clear the cache first. :drill:
+:PROPERTIES:
+:ID:       88FFD6F6-890E-4650-A83A-65BA79A4339E
+:END:
+
+Display a list of all directories
+*** Answer
+
+C-c p d
+** Display a list of all test files(specs, features, etc) in the project. :drill:
+:PROPERTIES:
+:ID:       B53CB751-7855-483C-BEB4-B02969FF7409
+:END:
+
+Display a list of all test
+*** Answer
+
+C-c p T
+** Run grep on the files in the project.                             :drill:
+:PROPERTIES:
+:ID:       B223256F-8CE8-4266-B6A3-FE61857A27EE
+:END:
+
+Run grep on the files in
+*** Answer
+
+C-c p g
+** Display a list of all project buffers currently open.             :drill:
+:PROPERTIES:
+:ID:       C5A47860-6803-4644-8962-4B314B999100
+:END:
+
+Display a list of all project
+*** Answer
+
+C-c p b
+** Runs multi-occur on all project buffers currently open.           :drill:
+:PROPERTIES:
+:ID:       ACE14C9E-3218-4889-843E-F9991222DFCC
+:END:
+
+Runs multi-occur on all project
+*** Answer
+
+C-c p o
+** Runs interactive query-replace on all files in the projects.      :drill:
+:PROPERTIES:
+:ID:       7DDF37AE-4CAB-458C-AF7B-4F861247B262
+:END:
+
+Runs interactive query-replace on all
+*** Answer
+
+C-c p r
+** Invalidates the project cache (if existing).                      :drill:
+:PROPERTIES:
+:ID:       5D685811-99D9-47D8-8826-766B132AC072
+:END:
+
+Invalidates the project cache (if existing
+*** Answer
+
+C-c p i
+** Regenerates the projects TAGS file.                               :drill:
+:PROPERTIES:
+:ID:       F25325FA-B974-40FF-A83C-9C9A7CD93689
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:19]
+:END:
+
+Regenerates the projects TAGS file.                               :drill
+*** Answer
+
+C-c p R
+** Kills all project buffers.                                        :drill:
+   SCHEDULED: <2016-02-27 Sáb>
+:PROPERTIES:
+:ID:       15994BBC-E6B8-48A3-9062-A194A05C576B
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:18]
+:END:
+
+Kills all project buffers.                                        :drill:
+*** Answer
+
+C-c p k
+** Opens the root of the project in dired.                           :drill:
+:PROPERTIES:
+:ID:       11CC9F37-6086-44B8-8933-2F9E96235C55
+:END:
+
+Opens the root of the project
+*** Answer
+
+C-c p D
+** Shows a list of recently visited project files.                   :drill:
+:PROPERTIES:
+:ID:       D6CC5AEE-C594-4AAF-9EDC-09EB51959733
+:END:
+
+Shows a list of recently visited
+*** Answer
+
+C-c p e
+** Runs ack on the project. Requires the presence of ack-and-a-half. :drill:
+:PROPERTIES:
+:ID:       4F9DBCBA-0655-47F8-9FDC-474F59A48FA0
+:END:
+
+Runs ack on the project. Requires
+*** Answer
+
+C-c p a
+** Runs a standard compilation command for your type of project.     :drill:
+:PROPERTIES:
+:ID:       2686632B-42D0-4E7E-803D-6F0D9FA1B60E
+:END:
+
+Runs a standard compilation command for
+*** Answer
+
+C-c p c
+** Runs a standard test command for your type of project.            :drill:
+:PROPERTIES:
+:ID:       C71DD93C-2388-4DDC-AFBD-E5F9FB421295
+:END:
+
+Runs a standard test command for
+*** Answer
+
+C-c p p
+** Adds the currently visited to the cache.                          :drill:
+:PROPERTIES:
+:ID:       92AFC70B-B994-447A-ADFB-A1EEBE8A2FD4
+:END:
+
+Adds the currently visited to the
+*** Answer
+
+C-c p z
+** Display a list of known projects you can switch to.               :drill:
+:PROPERTIES:
+:ID:       CF469E3F-85C4-4D1B-8D61-C4DB48D00F62
+:END:
+
+Display a list of known projects you can switch to.
+*** Answer
+
+C-c p s
+
+* Extending, Customizing: Finding+Installing packages
+** How to download packages from existing emacs repositories         :drill:
+   :PROPERTIES:
+   :ID:       0e9b8ade-646f-4cf7-a64b-b74c3c08cc07
+   :END:
+
+There are several repositories: gnu, marmalade, elpa are listed here:
+http://www.emacswiki.org/emacs/ELPA
+
+To use all 3, run this
+
+#+BEGIN_SRC elisp
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+#+END_SRC
+
+But how to install packages from them?  See answer:
+
+*** Answer
+
+Run command: list-packages.
+Then browse or search for the package you need, and click on its name.  Info is shown in a separate buffer, including a button for installing the package.
+
+* Drills / Learning
+** Force review of all cards                                         :drill:
+:PROPERTIES:
+:ID:       CC61743F-7E87-4BBB-929C-B3D358442E65
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 1.8
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2016-02-23 Ter 11:21]
+:END:
+
+Force review of all cards.
+*** Answer
+
+http://orgmode.org/worg/org-contrib/org-drill.html
+#+BEGIN_QUOTE
+There are some situations, such as before an exam, where you will want to revise all of your cards regardless of when they are next due for review.
+
+To do this, run a cram session with the org-drill-cram command (M-x org-drill-cram RET). This works the same as a normal drill session, except that all items are considered due for review unless you reviewed them within the last 12 hours (you can change the number of hours by customising the variable org-drill-cram-hours).
+#+END_QUOTE
+
+#+BEGIN_SRC elisp
+(setq org-drill-cram-hours 0)
+#+END_SRC
+
+#+RESULTS:
+: 0
+
