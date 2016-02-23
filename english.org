@@ -59,6 +59,18 @@ Raise: make higher
 
 Raise is a regullar verb, so I just add `ed` to make it in past:
 raised.
+** Why `ain't` is wrong?                                              :drill:
+
+"It ain't that good!"
+
+Wow, this sentence is wrong! Why?
+
+*** Why?
+
+Because `ain't` is not a contraction of to be verb, in these case you should use:
+
+"It isn't that good!"
+
 ** Lie and Lay                                                        :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: twosided
@@ -85,3 +97,22 @@ Lay is a transitive verb.
 Lay: To put something down.
 
 Lay is a irregular verb, your forms are: Lay, Laid.
+** Be carefull when use `seen`                                        :drill:
+
+Why that sentence is wrong?
+
+"I seen it before"
+
+*** Answer
+
+Because the locutor is trying to say about something that already
+happened, so he must use the Simple Past, and not the broken Past
+Participle.
+
+The right ways to say it:
+
+"I saw it before"
+
+Or
+
+"I have seen it before"
