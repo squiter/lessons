@@ -1,0 +1,87 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: overview
+
+* Engvid lessons
+
+** Transitive or Intransitive verbs                                   :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: twosided
+   :END:
+
+What is the difference between transitive and intransitive verbs?
+
+*** Transitive
+
+It's about something!
+Example: I love you! (You is `something` here)
+
+*** Intransitive
+
+It's about nothing Example: I died! (It's about me, I don't need
+anything else to make this sentence right)
+** Rise, Arise or Raise                                               :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: multisized
+   :END:
+
+When I should use rise, arise or raise?
+
+*** Rise
+
+Rise is a intransitive verb so I use it to talk about me like:
+
+"I just rose up to have a better view."
+
+Rise: to get higher
+
+Rise is irregullar verb, rose is the past form and risen is the
+perfect form
+
+*** Arise
+
+Arise is a intransitive verb, I should use it when something
+occurs/happened:
+
+"A few problems arise when I started the project."
+
+Arise: to happen, occur
+
+Arise is also a irregular verb, and works like rise: Arose is the past
+form and Arisen is the perfect form.
+
+*** Raise
+
+Raise is a transitive verb, it's about get something higher:
+
+"I raise you to make your view better."
+
+Raise: make higher
+
+Raise is a regullar verb, so I just add `ed` to make it in past:
+raised.
+** Lie and Lay                                                        :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: twosided
+   :END:
+
+When I should use lie or lay?
+
+*** Lie
+
+Lie is a intransitive verb.
+
+"I'm tired. I'm going to lie down."
+
+Lie: To recline, to make yourself go down.
+
+Lie is a irregular verb, your forms are: Lie, Lay and Lain
+
+*** Lay
+
+Lay is a transitive verb.
+
+"I lay this pen on the table."
+
+Lay: To put something down.
+
+Lay is a irregular verb, your forms are: Lay, Laid.
