@@ -4,8 +4,18 @@
 * Engvid lessons
 
 ** Transitive or Intransitive verbs                                   :drill:
+   SCHEDULED: <2016-03-05 Sáb>
    :PROPERTIES:
    :DRILL_CARD_TYPE: twosided
+   :ID:       426a31ca-ac8a-4f1d-a29e-317a01133fe6
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:33]
    :END:
 
 What is the difference between transitive and intransitive verbs?
@@ -22,6 +32,7 @@ anything else to make this sentence right)
 ** Rise, Arise or Raise                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: multisized
+   :ID:       574c55d6-126a-47c8-a3ed-6e09598ac796
    :END:
 
 When I should use rise, arise or raise?
@@ -60,6 +71,18 @@ Raise: make higher
 Raise is a regullar verb, so I just add `ed` to make it in past:
 raised.
 ** Why `ain't` is wrong?                                              :drill:
+   SCHEDULED: <2016-03-05 Sáb>
+   :PROPERTIES:
+   :ID:       52ab4c77-5dd8-4eb2-b614-b7b3a923174a
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 5.0
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:33]
+   :END:
 
 "It ain't that good!"
 
@@ -74,6 +97,15 @@ Because `ain't` is not a contraction of to be verb, in these case you should use
 ** Lie and Lay                                                        :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: twosided
+   :ID:       41dd7458-f442-4485-843f-3c64347be2c1
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:28]
    :END:
 
 When I should use lie or lay?
@@ -97,7 +129,182 @@ Lay is a transitive verb.
 Lay: To put something down.
 
 Lay is a irregular verb, your forms are: Lay, Laid.
+** Using Do and Did to make a strong point in english
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       2197da0b-42e6-4e00-b91c-fc9dc7f6437c
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:32]
+    :END:
+
+Alexis: Why is he late?
+Leonard: Well, he [did||did, doesn't or does] say he had some things to do.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       d91841cc-f738-42c4-b2e8-dd1cfc23a462
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:30]
+    :END:
+
+I don't know their mom, but I [do know||do knows, do know or do knew] their dad.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       afae256d-f633-4775-8e7c-bbe91a0965b1
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:29]
+    :END:
+
+I don't like milk, but I [do like||don't like, do likes, doen't like or do like] yogurt!
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       27097cf8-f470-463e-b49c-d66c5c13b43c
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:34]
+    :END:
+
+She doesn't have a car, but she [does have||does have, do has, do have or does has] a bus pass.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       f8eea36c-41e6-46d9-ab2a-e4f4c3cccac0
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:30]
+    :END:
+
+Ashley: Alex finished all of the soup!
+Rick: Well, he [does like||do likes, does likes, does like or is liking] soup.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       46a6c786-b8a4-438f-a35f-8b53a0384149
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:29]
+    :END:
+
+He doesn't like to watch television shows, but he [does like||do like, do liking, does like or do likes] watching movies.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       096c7ff1-da8f-43b9-9898-3ec7067ae518
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:29]
+    :END:
+
+I can't afford it, but [I do want||I do wants, I does want, I do wanting or I do want] to buy a house.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       b231257a-a5a9-4029-ab88-aad5a7f26d34
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:32]
+    :END:
+
+Michael: Do you think he would like a dog for his birthday?
+Tom: He [does like||does likes, does like, does liking or do like] animals.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       51eeaf59-91df-4c41-a243-66f31e6198ec
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:31]
+    :END:
+
+I don't watch MMA, but I [do watch||do wathing, do watch, does watch or does watching] pro wrestling.
+
+*** Complete that sentence                                            :drill:
+    SCHEDULED: <2016-03-05 Sáb>
+    :PROPERTIES:
+    :ID:       a1675122-f917-490d-99e8-957b8e838cef
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:33]
+    :END:
+
+I didn't like the story, but I [did||did, didn't or doesn't] like the characters!
+
 ** Be carefull when use `seen`                                        :drill:
+   :PROPERTIES:
+   :ID:       bcf94dca-1442-4323-9c02-e36dac0c0d05
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [2016-03-01 Ter 16:31]
+   :END:
 
 Why that sentence is wrong?
 
