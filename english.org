@@ -292,7 +292,6 @@ I don't watch MMA, but I [do watch||do wathing, do watch, does watch or does wat
     :END:
 
 I didn't like the story, but I [did||did, didn't or doesn't] like the characters!
-
 ** Be carefull when use `seen`                                        :drill:
    :PROPERTIES:
    :ID:       bcf94dca-1442-4323-9c02-e36dac0c0d05
@@ -323,3 +322,71 @@ The right ways to say it:
 Or
 
 "I have seen it before"
+** How to ask questions in the PAST SIMPLE tense
+*** Questions in simple past                                          :drill:
+
+[Did you finish] all your work?
+Did you finish
+Did you finished
+Did you finishing
+*** Questions in simple past                                          :drill:
+
+Where [did they] stay last night?
+they did
+did they
+do they
+they do
+*** Questions in simple past                                          :drill:
+How [did you break] phone?
+did yous break
+did you breaks
+did you breaking
+did you break
+*** Questions in simple past                                          :drill:
+Joe: When [did the accident happen]?
+Brian: Around noon, yesterday.
+
+happen the accident
+did happen the accident
+did the accident happen
+happened the accident
+*** Questions in simple past                                          :drill:
+[Did you enjoy] the movie?
+
+Did you enjoy
+Are you enjoy from
+Did you to enjoy
+*** Questions in simple past                                          :drill:
+[Did he have] a good holiday?
+Did he had
+Did he has
+Did he have
+Did he having
+*** Questions in simple past                                          :drill:
+Gordon: How [did you like] your dinner?
+Kelly: I think it needed a little more salt.
+
+you liked
+liked you
+did like you
+did you like
+*** Questions in simple past                                          :drill:
+[Did she do] well on her English exam?
+
+Did she do
+DId she does
+Did she doing
+*** Questions in simple past                                          :drill:
+What [did he say] to you?
+
+he said
+did he say
+did he said
+*** Questions in simple past                                          :drill:
+Anna: How [did you come] here tonight?
+Adam: I took the bus.
+
+you came
+you come
+did you came
+did you come
