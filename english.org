@@ -390,6 +390,79 @@ you came
 you come
 did you came
 did you come
+** Verbs for things you do every day
+*** Could you please __________ the table? We have finished eating now. :drill:
+    set
+    clear
+    vacuum
+    wash
+**** answer
+clear
+*** I need to __________ the whole house. My in-laws are coming over tomorrow. :drill:
+    clean
+    load
+    wash
+    clear
+    soil
+**** Answer
+clean
+*** Could you please __________ the living room carpet before the guests arrive? I dropped some chips there. :drill:
+    sweep
+    vacuum
+    wash
+    clear
+**** Answer
+vacuum
+*** Have you __________ the furniture yet?                            :drill:
+    mopped
+    dusted
+    cleared
+    vacuumed
+**** Answer
+dusted
+*** Can you help me by ____________ the dishwasher?                   :drill:
+    taking out
+    loading
+    clearing
+    mopping
+**** Answer
+loading
+*** The grass has really grown. I think you need to __________ the lawn. :drill:
+    cut
+    mow
+    mop
+    clear
+    kill
+**** Answer
+mow
+*** Whose turn is it to __________ the dishes?                        :drill:
+    do
+    make
+    take out
+    mop
+**** Answer
+do
+*** Tony, can you please _________ the table while I finish cooking? You always make the table look so pretty. :drill:
+    set
+    clear
+    wash
+    take out
+**** Answer
+set
+*** I still need to __________ the kitchen floor to remove these mud stains. :drill:
+    mop
+    sweep
+    clear
+    empty
+**** Answer
+mop
+***  I have no clean socks, Mom! When are you going to __________ the laundry? :drill:
+    do
+    make
+    take out
+    set
+**** Answer
+do
 ** Using `have to`
 *** 1. Which sentence is correct?                                     :drill:
 
